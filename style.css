@@ -157,7 +157,8 @@ main article{
 
 .card-list{
 
-    
+  
+    padding: 1rem;
 
 }
 
@@ -218,3 +219,32 @@ main article{
     align-items: center;
     padding: 2rem;
 }
+
+
+
+/* ===== Media Query  */
+
+/* large screen: 1200px */
+/* Medium: 768 px to 1200px */
+/* small screen: <768px */
+
+
+
+/* Ipads */
+@media (max-width: 1200) {
+    .glb-msg{
+        background: blue;
+    }
+    
+}
+
+
+/* mobiles */
+@media (max-width: 768px){
+    .glb-msg{
+        display: none;
+    }
+
+}
+
+
